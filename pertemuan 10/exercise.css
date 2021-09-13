@@ -1,0 +1,12 @@
+.container{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+
+#avatar_url{
+    border-radius: 100%;
+}
+
+
+
