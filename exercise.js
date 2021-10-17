@@ -10,10 +10,10 @@ const getDataAsync = async () => {
     
     console.log(result)
 
-    name.innerHTML = result.name
+    name.innerHTML = ("Hallo kenalin nama aku " + result.name )
     avatarUrl.src = result.avatar_url
     login.innerHTML = result.login 
-    followers.innerHTML = ("Jumlah followers kamu cuma " + result.followers )
+    followers.innerHTML = ("Jumlah followers " + result.followers )
     }
     
 getDataAsync()
